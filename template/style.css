@@ -1,0 +1,231 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	width: 1200px;
+	margin: auto;
+}
+
+.clr {
+	clear:left;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.register {
+	background: #00FFCC;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}
+
+.category {
+	height: 40px;
+	background: #131b28;
+}
+
+.category ul {
+	margin-top: 0px;
+	padding-left: 0px;
+}
+
+.category ul li {
+	float:left;
+	text-align: center;
+	border-right: 1px dotted #999999;
+	height: 40px;
+}
+
+.category ul li a {
+	padding: 0 80px 0 80px;
+	color: #666666;
+	background: #131b28;
+	line-height: 40px;
+	font-weight: bold;
+	display: inline-block;
+
+}
+
+.category ul li a:hover {
+	color: #FFFFFF;
+	background: #f1004c;
+}
+
+.category img {
+	float:left;
+	padding: 3px 20px 5px 20px;
+}
+
+
+.footer {
+	height: 100px;
+	background: #3333FF;
+	line-height: 100px;
+	text-align: center;
+	font-size: bold;
+	color: pink;
+}
+
+.left {
+	width: 798px;
+	float: left;
+}
+
+.news {
+	margin: 5px 10px 5px 10px;
+	border-bottom: 1px dotted #999999;
+	padding-bottom: 10px;
+}
+
+.news h3 {
+	margin-bottom: 5px;
+}
+
+.news img {
+	float: left;
+	border: 1px dotted #999999;
+	padding: 2px;
+	margin-right: 10px;
+}
+
+.news p {
+	text-align: justify;
+}
+
+.post {
+	width: 450px;
+	float: left;
+	border-right: 1px dotted #CCC;
+	padding-right: 10px;
+}
+
+.post a {
+	color: #005500;
+}
+
+.post a:hover {
+	text-decoration: none;
+	color: #0066CC;
+}
+
+.article {
+	width: 300px;
+	float: left;
+	padding: 5px;
+}
+
+.article li a {
+	text-decoration: none;
+	color: #333;
+}
+
+.article li {
+	list-style-type: square;
+	color: #999;
+}
+
+/* viet css cho category*/
+
+.pagination {
+	width: 800px;
+	margin: 10px auto 50px;
+}
+
+.pagination li {
+	float: left;
+	border: 1px solid #999999;
+	margin-right: 10px;
+	padding: 2px 5px 5px 2px;
+}
+
+.right {
+	width: 398px;
+	height: 500px;
+	float: left;
+	border: 1px solid #000000;
+}
+
+/* viet css cho trang detail */
+
+#detail-article {
+	border-bottom: 1px dashed #CCC;
+}
+
+#detail-article h2 {
+	padding: 5px 10px 5px 0px;
+	border-bottom: 1px dotted #CCC;
+	margin-bottom: 5px;
+}
+
+#detail-article img {
+	width: 500px;
+	height: 700px;
+	margin:10px 0px 10px 10px;
+}
+
+#dif-article p {
+	margin: 10px 0 10px 0;
+}
+
+#dif-article ul {
+	list-style-type: circle;
+	margin: 0 0 0 20px;
+}
+
+#dif-article a {
+	color: #666;
+}
+
+#dif-article a:hover {
+	color: #990000;
+}
+
+#comment legend {
+	margin-left: 10px;
+} 
+
+table {
+	margin: 10px 0 10px 0;
+}
+
+table input {
+	padding: 2px;
+}
+
+table textarea {
+	padding: 2px;
+}
+
+table select {
+	padding: 2px;
+}
+
+#showcmt {
+	margin: 20px 0 20px 0;
+}
+
+.comm {
+	margin: 8px 0 8px 0;
+}
+
+.comm img {
+	float:left;
+	border: 1px solid #CCC;
+	padding: 2px;
+	width: 40px;
+	height: 40px;
+}
+
+.cmt-cnt {
+	margin-left: 10px;
+	float: left;
+}
+
